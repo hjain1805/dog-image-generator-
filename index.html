@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dog Image Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <h1>🐶 Dog Image Generator</h1>
+
+    <div class="controls">
+      <select id="breed-select" aria-label="Select dog breed">
+        <option value="">Any breed</option>
+      </select>
+      <button id="fetch-btn" type="button">New dog</button>
+    </div>
+
+    <div class="image-container">
+      <p id="status-message" class="status-message">Loading...</p>
+      <img id="dog-img" src="" alt="A cute dog" class="dog-image" style="display: none;">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
